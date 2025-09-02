@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import LeaderBord from "./pages/LeaderBord";
-import Game from "./pages/game";
+import Game from "./pages/Game";
 import "./App.css"
 
 export default function App() {
