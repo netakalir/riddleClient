@@ -1,6 +1,9 @@
+import NavBar from "../comp/NavBar";
 
 export default function Login() {
   return (
-    <div>Login</div>
+    <div>
+      <NavBar />
+    </div>
   )
 }

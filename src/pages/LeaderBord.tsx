@@ -1,6 +1,9 @@
+import NavBar from "../comp/NavBar";
 
 export default function LeaderBord() {
-  return (
-    <div>LeaderBord</div>
-  )
+    return (
+        <div>
+            <NavBar />
+        </div>
+    )
 }
