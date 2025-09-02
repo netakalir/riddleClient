@@ -129,10 +129,14 @@ table {
   border-spacing: 0;
 }
 
-html, body {
+html,
+body {
   width: 10vw;
   height: 100vh;
   margin: 0;
   padding: 0;
-  overflow: hidden; 
+  overflow: hidden;
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  width: 100vw;
+  height: 100vh;
 }

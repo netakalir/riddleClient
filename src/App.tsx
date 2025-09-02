@@ -4,10 +4,11 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import LeaderBord from "./pages/LeaderBord";
 import Game from "./pages/game";
+import "./App.css"
 
 export default function App() {
   return (
-    <div>
+    <div className="baseContainer">
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/game" element={<Game/>}/>
