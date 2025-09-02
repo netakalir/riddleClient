@@ -1,11 +1,12 @@
 import Header from "../comp/Header";
-import NavBar from "../comp/NavBar";
-
+import HomeBtn from "../comp/homeBtn";
+import "./login.css"
 export default function Login() {
   return (
-    <div>
+    <div className="login">
+      <HomeBtn />
       <Header />
-      <NavBar />
+      
     </div>
   )
 }

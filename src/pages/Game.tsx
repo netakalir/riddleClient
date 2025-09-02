@@ -1,11 +1,11 @@
 import Header from "../comp/Header";
-import NavBar from "../comp/NavBar";
-
+import HomeBtn from "../comp/homeBtn";
+import "./game.css"
 export default function Game() {
   return (
-    <div>
+    <div className="game">
+      <HomeBtn />
       <Header />
-      <NavBar />
     </div>
   )
 }

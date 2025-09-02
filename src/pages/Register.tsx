@@ -1,11 +1,12 @@
 import Header from "../comp/Header";
-import NavBar from "../comp/NavBar";
-
+import HomeBtn from "../comp/homeBtn";
+import "./register.css"
 export default function Register() {
   return (
-    <div>
+    <div className="register">
+      <HomeBtn />
       <Header />
-      <NavBar />
+
     </div>
   )
 }

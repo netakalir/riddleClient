@@ -1,11 +1,11 @@
 import Header from "../comp/Header";
-import NavBar from "../comp/NavBar";
-
+import HomeBtn from "../comp/homeBtn";
+import "./LeaderBord.css"
 export default function LeaderBord() {
     return (
-        <div>
+        <div className="leaderBord">
+            <HomeBtn />
             <Header />
-            <NavBar />
         </div>
     )
 }
